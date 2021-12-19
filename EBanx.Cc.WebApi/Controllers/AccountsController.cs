@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 namespace Ebanx.Cc.WebApi.Controllers
 {
 	[ApiController]
-	[Route("[controller]")]
 	public class AccountsController : ControllerBase
 	{
 		private readonly ILogger<AccountsController> _logger;

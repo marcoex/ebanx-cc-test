@@ -6,5 +6,6 @@
   <PropertyGroup>
     <ActiveDebugProfile>Ebanx.Cc.WebApi</ActiveDebugProfile>
     <NameOfLastUsedPublishProfile>D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\Properties\PublishProfiles\ebanx-cc-test - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
 </Project>
