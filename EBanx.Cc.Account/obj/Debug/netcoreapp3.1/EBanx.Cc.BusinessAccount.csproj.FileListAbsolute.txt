@@ -1,0 +1,10 @@
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\EBanx.Cc.Account\bin\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.deps.json
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\EBanx.Cc.Account\bin\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.dll
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\EBanx.Cc.Account\bin\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.pdb
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\EBanx.Cc.Account\obj\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.csproj.AssemblyReference.cache
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\EBanx.Cc.Account\obj\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\EBanx.Cc.Account\obj\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.AssemblyInfoInputs.cache
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\EBanx.Cc.Account\obj\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.AssemblyInfo.cs
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\EBanx.Cc.Account\obj\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.csproj.CoreCompileInputs.cache
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\EBanx.Cc.Account\obj\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.dll
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\EBanx.Cc.Account\obj\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.pdb
