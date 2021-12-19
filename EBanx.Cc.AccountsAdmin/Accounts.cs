@@ -9,7 +9,7 @@ namespace EBanx.Cc.AccountsAdmin
 	/// </summary>
 	public static class Accounts
 	{
-		private static IList<Account> AccountData;
+		private static List<Account> AccountData;
 		private static object __operation = new object();
 
 		/// <summary>
@@ -23,6 +23,7 @@ namespace EBanx.Cc.AccountsAdmin
 		public static void Initialize()
 		{
 			#region Criar contas fake para teste
+			AccountData = new List<Account>();
 			var ac = new Account(100);
 			ac.Statement.Add("Depósito", DateTime.Parse("2020-01-30"), 1000.10f);
 			ac.Statement.Add("Saque", DateTime.Parse("2020-02-05"), -150.10f);
