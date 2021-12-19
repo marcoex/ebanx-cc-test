@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace EBanx.Cc.BusinessAccount
+namespace EBanx.Cc.AccountsAdmin
 {
 	/// <summary>
 	/// Representa uma lista de eventos da Conta. 

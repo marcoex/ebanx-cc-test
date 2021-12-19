@@ -4,12 +4,12 @@
     "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\Ebanx.Cc.WebApi\\EBanx.Cc.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.BusinessAccount.csproj": {
+    "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.BusinessAccount.csproj",
-        "projectName": "EBanx.Cc.BusinessAccount",
-        "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.BusinessAccount.csproj",
+        "projectUniqueName": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj",
+        "projectName": "EBanx.Cc.AccountsAdmin",
+        "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj",
         "packagesPath": "C:\\Users\\netch\\.nuget\\packages\\",
         "outputPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\obj\\",
         "projectStyle": "PackageReference",
@@ -92,8 +92,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.BusinessAccount.csproj": {
-                "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.BusinessAccount.csproj"
+              "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj": {
+                "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj"
               }
             }
           }

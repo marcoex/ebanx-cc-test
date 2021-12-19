@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "EBanx.Cc.BusinessAccount/1.0.0": {
+      "EBanx.Cc.AccountsAdmin/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/EBanx.Cc.BusinessAccount.dll": {}
+          "bin/placeholder/EBanx.Cc.AccountsAdmin.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EBanx.Cc.BusinessAccount.dll": {}
+          "bin/placeholder/EBanx.Cc.AccountsAdmin.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "EBanx.Cc.BusinessAccount/1.0.0": {
+    "EBanx.Cc.AccountsAdmin/1.0.0": {
       "type": "project",
-      "path": "../EBanx.Cc.Account/EBanx.Cc.BusinessAccount.csproj",
-      "msbuildProject": "../EBanx.Cc.Account/EBanx.Cc.BusinessAccount.csproj"
+      "path": "../EBanx.Cc.Account/EBanx.Cc.AccountsAdmin.csproj",
+      "msbuildProject": "../EBanx.Cc.Account/EBanx.Cc.AccountsAdmin.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "EBanx.Cc.BusinessAccount >= 1.0.0"
+      "EBanx.Cc.AccountsAdmin >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -60,8 +60,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.BusinessAccount.csproj": {
-              "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.BusinessAccount.csproj"
+            "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj": {
+              "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj"
             }
           }
         }

@@ -1,4 +1,4 @@
-﻿using EBanx.Cc.BusinessAccount;
+﻿using EBanx.Cc.AccountsAdmin;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -10,11 +10,11 @@ namespace Ebanx.Cc.WebApi.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]
-	public class AccountController : ControllerBase
+	public class AccountsController : ControllerBase
 	{
-		private readonly ILogger<AccountController> _logger;
+		private readonly ILogger<AccountsController> _logger;
 
-		public AccountController(ILogger<AccountController> logger)
+		public AccountsController(ILogger<AccountsController> logger)
 		{
 			_logger = logger;
 		}
@@ -22,10 +22,26 @@ namespace Ebanx.Cc.WebApi.Controllers
 		/// <summary>
 		/// Reset state before starting tests
 		/// </summary>
+		[Route("[action]")]
 		[HttpPost]
-		public void Reset()
+		public IActionResult Reset()
 		{
 			Accounts.Initialize();
+			return Ok();
+		}
+
+		/// <summary>
+		/// Determina se a Api está totalmente operante.
+		/// </summary>
+		[Route("[action]")]
+		[HttpGet]
+		public IActionResult Health()
+		{
+			//hack: testes de saúde da api
+			var list = new List<KeyValuePair<string, bool>>();
+			list.Add(KeyValuePair.Create("Serviço administrador de contas", true));
+			list.Add(KeyValuePair.Create("Serviço de persistência de dados.", false));
+			return Ok(list);
 		}
 
 		/// <summary>

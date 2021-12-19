@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.BusinessAccount.csproj",
-      "projectName": "EBanx.Cc.BusinessAccount",
-      "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.BusinessAccount.csproj",
+      "projectUniqueName": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj",
+      "projectName": "EBanx.Cc.AccountsAdmin",
+      "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj",
       "packagesPath": "C:\\Users\\netch\\.nuget\\packages\\",
       "outputPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\obj\\",
       "projectStyle": "PackageReference",

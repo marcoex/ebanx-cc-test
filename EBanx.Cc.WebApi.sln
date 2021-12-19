@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBanx.Cc.WebApi", "Ebanx.Cc.WebApi\EBanx.Cc.WebApi.csproj", "{3A1F5CA7-0CC8-47C5-8E25-ABDB8CAB2396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBanx.Cc.BusinessAccount", "EBanx.Cc.Account\EBanx.Cc.BusinessAccount.csproj", "{F2BF58D9-7444-43A7-AB74-9EE908B6CC8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBanx.Cc.AccountsAdmin", "EBanx.Cc.Account\EBanx.Cc.AccountsAdmin.csproj", "{F2BF58D9-7444-43A7-AB74-9EE908B6CC8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

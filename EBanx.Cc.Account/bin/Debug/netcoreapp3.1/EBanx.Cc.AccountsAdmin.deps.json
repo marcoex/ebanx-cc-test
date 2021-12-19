@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EBanx.Cc.AccountsAdmin/1.0.0": {
+        "runtime": {
+          "EBanx.Cc.AccountsAdmin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EBanx.Cc.AccountsAdmin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

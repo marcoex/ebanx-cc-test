@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EBanx.Cc.BusinessAccount
+namespace EBanx.Cc.AccountsAdmin
 {
 	public class StatementItem
 	{

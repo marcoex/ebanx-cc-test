@@ -6,8 +6,6 @@ D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\bin\Debug\netcorea
 D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\bin\Debug\netcoreapp3.1\EBanx.Cc.WebApi.runtimeconfig.dev.json
 D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\bin\Debug\netcoreapp3.1\EBanx.Cc.WebApi.dll
 D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\bin\Debug\netcoreapp3.1\EBanx.Cc.WebApi.pdb
-D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\bin\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.dll
-D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\bin\Debug\netcoreapp3.1\EBanx.Cc.BusinessAccount.pdb
 D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\EBanx.Cc.WebApi.csproj.AssemblyReference.cache
 D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\EBanx.Cc.WebApi.GeneratedMSBuildEditorConfig.editorconfig
 D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\EBanx.Cc.WebApi.AssemblyInfoInputs.cache
@@ -20,3 +18,5 @@ D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcorea
 D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\EBanx.Cc.WebApi.dll
 D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\EBanx.Cc.WebApi.pdb
 D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\EBanx.Cc.WebApi.genruntimeconfig.cache
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\bin\Debug\netcoreapp3.1\EBanx.Cc.AccountsAdmin.dll
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\bin\Debug\netcoreapp3.1\EBanx.Cc.AccountsAdmin.pdb

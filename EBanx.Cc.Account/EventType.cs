@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Linq;
 
-namespace EBanx.Cc.BusinessAccount
+namespace EBanx.Cc.AccountsAdmin
 {
 	public enum EventType : byte
 	{
