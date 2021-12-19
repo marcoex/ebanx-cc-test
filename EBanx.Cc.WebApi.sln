@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBanx.Cc.WebApi", "Ebanx.Cc.WebApi\EBanx.Cc.WebApi.csproj", "{3A1F5CA7-0CC8-47C5-8E25-ABDB8CAB2396}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBanx.Cc.AccountsAdmin", "EBanx.Cc.Account\EBanx.Cc.AccountsAdmin.csproj", "{F2BF58D9-7444-43A7-AB74-9EE908B6CC8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBanx.Cc.AccountsAdmin", "EBanx.Cc.AccountsAdmin\EBanx.Cc.AccountsAdmin.csproj", "{51B82EB9-D23B-4C5B-A0F0-A6600564C05F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{3A1F5CA7-0CC8-47C5-8E25-ABDB8CAB2396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A1F5CA7-0CC8-47C5-8E25-ABDB8CAB2396}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A1F5CA7-0CC8-47C5-8E25-ABDB8CAB2396}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F2BF58D9-7444-43A7-AB74-9EE908B6CC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2BF58D9-7444-43A7-AB74-9EE908B6CC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2BF58D9-7444-43A7-AB74-9EE908B6CC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2BF58D9-7444-43A7-AB74-9EE908B6CC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B82EB9-D23B-4C5B-A0F0-A6600564C05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B82EB9-D23B-4C5B-A0F0-A6600564C05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B82EB9-D23B-4C5B-A0F0-A6600564C05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B82EB9-D23B-4C5B-A0F0-A6600564C05F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

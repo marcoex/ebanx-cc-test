@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj": {}
+    "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.AccountsAdmin\\EBanx.Cc.AccountsAdmin.csproj": {}
   },
   "projects": {
-    "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj": {
+    "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.AccountsAdmin\\EBanx.Cc.AccountsAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj",
+        "projectUniqueName": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.AccountsAdmin\\EBanx.Cc.AccountsAdmin.csproj",
         "projectName": "EBanx.Cc.AccountsAdmin",
-        "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj",
+        "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.AccountsAdmin\\EBanx.Cc.AccountsAdmin.csproj",
         "packagesPath": "C:\\Users\\netch\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\obj\\",
+        "outputPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.AccountsAdmin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

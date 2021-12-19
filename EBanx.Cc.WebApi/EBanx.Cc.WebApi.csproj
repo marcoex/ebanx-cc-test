@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EBanx.Cc.Account\EBanx.Cc.AccountsAdmin.csproj" />
+    <ProjectReference Include="..\EBanx.Cc.AccountsAdmin\EBanx.Cc.AccountsAdmin.csproj" />
   </ItemGroup>
 
 

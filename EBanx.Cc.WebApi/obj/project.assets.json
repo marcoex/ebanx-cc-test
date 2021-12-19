@@ -17,8 +17,8 @@
   "libraries": {
     "EBanx.Cc.AccountsAdmin/1.0.0": {
       "type": "project",
-      "path": "../EBanx.Cc.Account/EBanx.Cc.AccountsAdmin.csproj",
-      "msbuildProject": "../EBanx.Cc.Account/EBanx.Cc.AccountsAdmin.csproj"
+      "path": "../EBanx.Cc.AccountsAdmin/EBanx.Cc.AccountsAdmin.csproj",
+      "msbuildProject": "../EBanx.Cc.AccountsAdmin/EBanx.Cc.AccountsAdmin.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -60,8 +60,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj": {
-              "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.Account\\EBanx.Cc.AccountsAdmin.csproj"
+            "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.AccountsAdmin\\EBanx.Cc.AccountsAdmin.csproj": {
+              "projectPath": "D:\\Users\\netch\\Documents\\GitHub\\ebanx-cc-test\\EBanx.Cc.AccountsAdmin\\EBanx.Cc.AccountsAdmin.csproj"
             }
           }
         }
