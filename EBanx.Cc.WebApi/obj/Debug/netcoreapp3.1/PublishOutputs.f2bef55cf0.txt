@@ -1,0 +1,9 @@
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\PubTmp\Out\EBanx.Cc.WebApi.exe
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\PubTmp\Out\appsettings.json
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\PubTmp\Out\EBanx.Cc.WebApi.dll
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\PubTmp\Out\EBanx.Cc.WebApi.deps.json
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\PubTmp\Out\EBanx.Cc.WebApi.runtimeconfig.json
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\PubTmp\Out\EBanx.Cc.WebApi.pdb
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\PubTmp\Out\EBanx.Cc.AccountsAdmin.dll
+D:\Users\netch\Documents\GitHub\ebanx-cc-test\Ebanx.Cc.WebApi\obj\Debug\netcoreapp3.1\PubTmp\Out\EBanx.Cc.AccountsAdmin.pdb

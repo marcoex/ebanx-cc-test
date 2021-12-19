@@ -47,6 +47,7 @@ namespace Ebanx.Cc.WebApi.Controllers
 		/// <summary>
 		/// Get balance for existing account
 		/// </summary>
+		[Route("[action]")]
 		[HttpGet]
 		public IActionResult Balance(long account_id)
 		{
@@ -60,6 +61,7 @@ namespace Ebanx.Cc.WebApi.Controllers
 		/// <summary>
 		/// Create account with initial balance
 		/// </summary>
+		[Route("[action]")]
 		[HttpPost]
 		public IActionResult Event(EventType type, long origin, long destination, float amount)
 		{
