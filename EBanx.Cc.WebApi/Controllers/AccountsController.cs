@@ -1,4 +1,5 @@
-﻿using EBanx.Cc.AccountsAdmin;
+﻿using Ebanx.Cc.WebApi.ViewModels;
+using EBanx.Cc.AccountsAdmin;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -48,7 +49,7 @@ namespace Ebanx.Cc.WebApi.Controllers
 		/// </summary>
 		[Route("[action]")]
 		[HttpGet]
-		public IActionResult Balance(long account_id)
+		public IActionResult Balance(string account_id)
 		{
 			var cc = Accounts.Find(account_id);
 			if (cc == null)
@@ -62,23 +63,32 @@ namespace Ebanx.Cc.WebApi.Controllers
 		/// </summary>
 		[Route("[action]")]
 		[HttpPost]
-		public IActionResult Event(EventType type, long origin, long destination, float amount)
+		public IActionResult Event([FromBody] EventViewModel model)
 		{
-			var originCC = Accounts.Find(origin);
-			var destinationCC = Accounts.Find(destination);
-			if (!Accounts.TryOperation(type, origin, destination, amount))
+			var originCC = model.Origin != null ? Accounts.Find(model.Origin) : default(Account);
+			var destinationCC = model.Destination != null ? Accounts.Find(model.Destination) : default(Account);
+			model.Type = model.Type.ToLower();
+
+			if (model.Type != "deposit" && originCC == null)
 				return NotFound(0);
 
-
-			switch (type) {
-				case EventType.Deposit:
-					return Created("", new { Destination = originCC });
-				case EventType.WithDraw:
-					return Created("", new { Origin = originCC });
-				case EventType.Transfer:
-					return Created("", new { Origin = originCC, destination = destinationCC });
+			var result = new Dictionary<string, Account>();
+			switch (model.Type) {
+				case "deposit":
+					result["destination"] = Accounts.Deposit(model.Destination, model.Amount);
+					break;
+				case "withdraw":
+					result["origin"] = Accounts.WithDraw(model.Origin, model.Amount);
+					break;
+				case "transfer":
+					var ccs = Accounts.Transfer(model.Origin, model.Destination, model.Amount);
+					result["origin"] = ccs.Item1;
+					result["destination"] = ccs.Item2;
+					break;
+				default:
+					return BadRequest();
 			}
-			return null;  //não chegará aqui
+			return Created("", result);
 		}
 
 

@@ -12,7 +12,7 @@ namespace EBanx.Cc.AccountsAdmin
 		/// <summary>
 		/// Identificador da conta.
 		/// </summary>
-		public long Id { get; private set; }
+		public string Id { get; private set; }
 
 		/// <summary>
 		/// Saldo total.
@@ -33,7 +33,7 @@ namespace EBanx.Cc.AccountsAdmin
 		/// Cria uma instância de Conta (Account).
 		/// </summary>
 		/// <param name="id">Identificador da conta</param>
-		public Account(long id)
+		public Account(string id)
 		{
 			this.Id = id;
 		}

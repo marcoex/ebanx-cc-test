@@ -17,18 +17,12 @@ namespace EBanx.Cc.AccountsAdmin
 		/// </summary>
 		static Accounts()
 		{
-			Initialize();	
+			Initialize();
 		}
 
 		public static void Initialize()
 		{
-			#region Criar contas fake para teste
 			AccountData = new List<Account>();
-			var ac = new Account(100);
-			ac.Statement.Add("Depósito", DateTime.Parse("2020-01-30"), 1000.10f);
-			ac.Statement.Add("Saque", DateTime.Parse("2020-02-05"), -150.10f);
-			AccountData.Add(ac);
-			#endregion
 		}
 
 		/// <summary>
@@ -36,45 +30,62 @@ namespace EBanx.Cc.AccountsAdmin
 		/// </summary>
 		/// <param name="id"></param>
 		/// <returns></returns>
-		public static Account Find(long id)
+		public static Account Find(string id)
 		{
 			return AccountData.FirstOrDefault(x => x.Id == id);
 		}
 
 		/// <summary>
-		/// Tenta executar uma operação em conta existe, ou cria uma conta nova.
+		/// Executar uma operação de saque.
 		/// </summary>
-		/// <param name="type"></param>
-		/// <param name="id"></param>
-		/// <param name="value"></param>
+		/// <param name="id">Identificador da conta.</param>
+		/// <param name="amount">Valor monetário.</param>
 		/// <returns></returns>
-		public static bool TryOperation(EventType type, long origin, long destination, float value)
+		public static Account WithDraw(string id, float amount)
 		{
-			var originCC = Find(origin);
-			var destinationCC = Find(destination);
-			if (type != EventType.Deposit && originCC == null)  //saque/transf em conta inexistente
-				return false;
+			var cc = Find(id);
+			if (cc == null)
+				return null;
+
 
 			lock (__operation) {
-				if (destinationCC == null)
-					destinationCC = Accounts.Create(destination);
-
-				switch (type) {
-					case EventType.Deposit:
-						destinationCC.Statement.Add(type.GetDescription(), DateTime.Now, value);
-						break;
-					case EventType.WithDraw:
-						destinationCC.Statement.Add(type.GetDescription(), DateTime.Now, -value);
-						break;
-					case EventType.Transfer:
-						originCC.Statement.Add($"{type.GetDescription()} (to: {destination})", DateTime.Now, -value);
-						destinationCC.Statement.Add($"{type.GetDescription()} (from: {origin})", DateTime.Now, value);
-						break;
-					default:
-						break;
-				}
+				cc.Statement.Add(EventType.WithDraw.GetDescription(), DateTime.Now, -amount);
 			}
-			return true;
+			return cc;
+		}
+
+		/// <summary>
+		/// Executar uma operação de depósito.
+		/// </summary>
+		/// <param name="id">Identificador da conta.</param>
+		/// <param name="amount">Valor monetário.</param>
+		public static Account Deposit(string id, float amount)
+		{
+			var cc = Find(id) ?? Create(id);
+			lock (__operation) {
+				cc.Statement.Add(EventType.Deposit.GetDescription(), DateTime.Now, amount);
+			}
+			return cc;
+		}
+
+		/// <summary>
+		/// Executar uma operação de transferência.
+		/// </summary>
+		/// <param name="origin">Identificador da conta origem.</param>
+		/// <param name="destination">Identificador da conta destino.</param>
+		/// <param name="amount">Valor monetário.</param>
+		public static Tuple<Account, Account> Transfer(string origin, string destination, float amount)
+		{
+			var originCC = Find(origin);
+			if (originCC == null)
+				return Tuple.Create(default(Account), default(Account));
+
+			var destinationCC = Find(destination) ?? Create(destination);
+			lock (__operation) {
+				originCC.Statement.Add($"{EventType.WithDraw.GetDescription()} (to: {destination})", DateTime.Now, -amount);
+				destinationCC.Statement.Add($"{EventType.Deposit} (from: {origin})", DateTime.Now, amount);
+			}
+			return Tuple.Create(originCC, destinationCC);
 		}
 
 		/// <summary>
@@ -82,7 +93,7 @@ namespace EBanx.Cc.AccountsAdmin
 		/// </summary>
 		/// <param name="id"></param>
 		/// <returns></returns>
-		public static bool Exists(long id)
+		public static bool Exists(string id)
 		{
 			return AccountData.Any(x => x.Id == id);
 		}
@@ -93,7 +104,7 @@ namespace EBanx.Cc.AccountsAdmin
 		/// <param name="id"></param>
 		/// <param name="type"></param>
 		/// <returns></returns>
-		public static Account Create(long id)
+		public static Account Create(string id)
 		{
 			var cc = new Account(id);
 			AccountData.Add(cc);

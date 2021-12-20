@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBanx.Cc.WebApi", "Ebanx.Cc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBanx.Cc.AccountsAdmin", "EBanx.Cc.AccountsAdmin\EBanx.Cc.AccountsAdmin.csproj", "{51B82EB9-D23B-4C5B-A0F0-A6600564C05F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B78D75AB-A212-4015-9AE8-D3C47E385549}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A1F5CA7-0CC8-47C5-8E25-ABDB8CAB2396} = {B78D75AB-A212-4015-9AE8-D3C47E385549}
+		{51B82EB9-D23B-4C5B-A0F0-A6600564C05F} = {B78D75AB-A212-4015-9AE8-D3C47E385549}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6A7EDEB-ABDE-4E3B-8314-5EE1F1EFF647}
